@@ -1,0 +1,6 @@
+{
+  "default_options": [
+    "-vv",
+    "--format-options=headers.sort:true,json.format:true,json.indent:2,json.sort_keys:false,xml.format:true,xml.indent:2"
+  ]
+}

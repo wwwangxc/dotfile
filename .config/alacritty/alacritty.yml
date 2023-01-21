@@ -1,0 +1,89 @@
+window:
+  startup_mode: Fullscreen
+  padding:
+    x: 0
+    y: 0
+  dynamic_padding: true
+  #opacity: 0.8
+
+font:
+  normal:
+    #family: "CaskaydiaCove Nerd Font"
+    #style: Book
+    #family: "JetBrainsMono Nerd Font"
+    family: "SauceCodePro Nerd Font"
+    #style: Medium
+    style: Regular
+  bold:
+    family: "Source Code Pro"
+    style: Semibold
+  italic:
+    family: "Source Code Pro"
+    style: Italic
+  bold_italic:
+    family: "Source Code Pro"
+    style: Semibold Bold
+  size: 16
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+
+scrolling:
+  # 回滚缓冲区中的最大行数。 设置为 0 会禁用滚动
+  history: 10000
+
+  # 一次滚动几行
+  multiplier: 3
+
+colors:
+  # Default colors
+  primary:
+    background: '#2D353B'
+    foreground: '#D3C6AA'
+
+  # Normal colors
+  normal:
+    black: '#343F44'
+    red: '#E67E80'
+    green: '#A7C080'
+    yellow: '#DBBC7F'
+    blue: '#7FBBB3'
+    magenta: '#E69875'
+    cyan: '#9DA9A0'
+    white: '#D3C6AA'
+
+  # Bright colors
+  bright:
+    black: '#343F44'
+    red: '#E67E80'
+    green: '#A7C080'
+    yellow: '#DBBC7F'
+    blue: '#7FBBB3'
+    magenta: '#E69875'
+    cyan: '#83C092'
+    white: '#2D353B'
+    # black:   '#232A2E'
+    # red:     '#E67E80'
+    # green:   '#A7C080'
+    # yellow:  '#DBBC7F'
+    # blue:    '#7FBBB3'
+    # magenta: '#E69875'
+    # cyan:    '#83C092'
+    # white:   '#D3C6AA'
+mouse:
+  hide_when_typing: false
+  #shell:
+  #  program: /bin/zsh
+  #  args:
+  #    - --login
+
+#key_bindings:
+#  - { key: T,         mods: Alt,                    action: CreateNewWindow }
+draw_bold_text_with_bright_colors: false
+live_config_reload: true
+theme: everforest
+
+#theme: nord
