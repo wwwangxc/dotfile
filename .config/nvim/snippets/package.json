@@ -1,0 +1,19 @@
+{
+	"name": "customer-snippets",
+	"contributes": {
+		"snippets": [
+			{
+				"language": [
+					"all"
+				],
+				"path": "./all.json"
+			},
+			{
+				"language": [
+					"go"
+				],
+				"path": "./go.json"
+			}
+		]
+	}
+}

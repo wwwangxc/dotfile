@@ -18,6 +18,7 @@ local modules = {
   "customer.autopairs", -- 自动完成括号
   "customer.neo-tree", -- 目录树
   "customer.neotest", -- 测试用例
+  --"customer.todo-comments", -- comment 高亮
 }
 
 for _, module in ipairs(modules) do

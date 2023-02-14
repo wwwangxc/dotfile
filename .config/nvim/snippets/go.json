@@ -1,0 +1,9 @@
+{
+  "todo": {
+    "prefix": "nico",
+    "body": [
+      "// TODO(nicoxcwang): ${1:comments}"
+    ],
+    "description": "Snippet for todo comments"
+  }
+}
